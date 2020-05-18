@@ -15,11 +15,16 @@ body {
 }
 
 h1 {
-  left-margin: 30px;
+  margin: 30px;
   font-family: 'Lobster', cursive;
   text-shadow: 5px 0 #232931;
   font-size: 8rem;
   color: #4ECCA3;
+}
+
+a{
+  color: #4ECCA3;
+  font-family: 'Indie Flower', cursive;
 }
 
 p {
@@ -33,6 +38,7 @@ img {
 }
 
 footer {
+  font-size: 1 rem;
   margin-top: 5%;
   color: #EEEEEE;
   text-align: center;
