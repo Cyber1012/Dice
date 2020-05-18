@@ -44,3 +44,7 @@ footer {
   font-family: 'Indie Flower', cursive;
 
 }
+
+footer #c{
+  font-size: 0.5 rem;
+}
