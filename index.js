@@ -1,5 +1,6 @@
-var p1 = prompt("What is your name?");
-var p2 = prompt("What is your friends name?");
+var p1 = prompt("Who will be player 1?");
+
+var p2 = prompt("Who will be player 2?");
 
 var randomNumberP1 = Math.floor(Math.random() * 6) + 1;
 
