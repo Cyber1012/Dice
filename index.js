@@ -2,6 +2,10 @@ var p1 = prompt("Who will be player 1?");
 
 var p2 = prompt("Who will be player 2?");
 
+for(var i = 1; i > document.querySelectorAll[".p"].length; i++){
+  document.querySelector(".p")[i].innerHTML = p + i;
+}
+
 var randomNumberP1 = Math.floor(Math.random() * 6) + 1;
 
 var randomImageP1 = "images/dice" + randomNumberP1 + ".png";
