@@ -2,9 +2,9 @@ var p1 = prompt("Who will be player 1?");
 
 var p2 = prompt("Who will be player 2?");
 
-for(var i = 1; i > document.querySelectorAll[".p"].length; i++){
-  document.querySelector(".p")[i].innerHTML = p + i;
-}
+document.querySelector(".p")[0].innerHTML = p1;
+
+document.querySelector(".p")[1].innerHTML = p2;
 
 var randomNumberP1 = Math.floor(Math.random() * 6) + 1;
 
